@@ -1,0 +1,108 @@
+ /*
+ * PROGRAM:
+ * FILE:insert_operation.c
+ * CREATED BY:Santosh Hembram
+ * DATED:12/02/2020
+ */
+	#include<stdio.h>
+	#include<stdlib.h>
+	typedef struct link
+	{
+		int data;
+		struct link *next;
+	}sl;
+	sl *first=NULL,*last,*curr;
+	void create(int);
+	void display(sl *);
+	void insert_first(sl *);
+	void insert_last(sl *);
+	void insert_specific_pos(sl *,int);
+	
+	int main()
+	{
+		int num,pos;
+		char ch='y';
+		while(ch=='y'||ch=='Y')
+		{
+			printf("Enter a number:-");
+			scanf("%d",&num);
+			create(num);
+			printf("\nDo you want to create another node[y/n]");
+			fgetc(stdin);
+			scanf("%c",&ch);
+		}
+		display(first);
+		insert_first(first);
+		insert_last(first);
+		
+	
+		printf("\nEnter a position:-");
+		scanf("%d",&pos);
+		insert_specific_pos(first,pos);
+	}
+	void create(int num)
+	{
+		curr=(sl *)malloc(sizeof(sl));
+		curr->data=num;
+		curr->next=NULL;
+		if(first==NULL)
+			first=curr;
+		else
+			last->next=curr;	
+		last=curr;
+	}
+	void display(sl *n)
+	{
+		while(n!=NULL)
+		{
+			printf("\n%d",n->data);
+			n=n->next;
+		}
+	}
+	void insert_first(sl *ptr)
+	{
+		int num2;
+		printf("\nEnter a number to store in first:-");
+		scanf("%d",&num2);
+		curr=(sl *)malloc(sizeof(sl));
+		curr->data=num2;
+		curr->next=first;
+		first=curr;
+		printf("\nAfter inserting at first postion:-\n");
+		display(first);
+	}
+	void insert_last(sl *ptr2)
+	{
+		int num3;
+		printf("\nEnter a number to store in last:-");
+		scanf("%d",&num3);
+		curr=(sl *)malloc(sizeof(sl));
+		curr->data=num3;
+		while(ptr2->next!=NULL)
+			ptr2=ptr2->next;
+		ptr2->next=curr;
+		curr->next=NULL;
+		printf("\nAfter inserting at last postion:-\n");
+		display(first);	
+	}
+	void insert_specific_pos(sl *ptr3,int pos)
+	{
+		int num4,i=1;
+		printf("\nEnter a number:-");
+		scanf("%d",&num4);
+		curr=(sl *)malloc(sizeof(sl));
+		curr->data=num4;
+		while(ptr3!=NULL && i<pos)
+		{
+			last=ptr3;
+			ptr3=ptr3->next;
+			i++;
+		}
+		curr->next=ptr3;
+		last->next=curr;
+		printf("\nAfter inserting at specific postion:-\n");
+		display(first);
+	}
+	
+
+
