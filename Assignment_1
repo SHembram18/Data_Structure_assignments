@@ -1,0 +1,52 @@
+/*
+ * PROGRAM:Create a sll whose node can contain a numeric value as it's data
+ * FILE:program.c
+ * CREATED BY:Santosh Hembram
+ * DATED:12/02/2020
+ */
+	#include<stdio.h>
+	#include<stdlib.h>
+	typedef struct link
+	{
+		int data;
+		struct link *next;
+	}sl;
+	sl *first=NULL,*last,*curr;
+	void create(int);
+	void display(sl *);
+	int main()
+	{
+		int num;
+		char ch ='y';
+		while(ch=='y'||ch=='Y')
+		{
+			printf("Enter a number:-");
+			scanf("%d",&num);
+			create(num);
+			printf("\nDo you want to create another node[Y/N]:-");
+			fgetc(stdin);
+			scanf("%c",&ch);
+		}
+		display(first);
+	}
+	void create(int num)
+	{
+		curr=(sl *)malloc(sizeof(sl));
+		curr->data=num;
+		curr->next=NULL;
+		if(first==NULL)
+			first=curr;
+		else
+			last->next=curr;
+		last=curr;
+	}
+	void display(sl *n)
+	{
+		while(n!=NULL)
+		{
+			printf("\n%d",n->data);
+			n=n->next;
+		}
+	}
+			
+	
