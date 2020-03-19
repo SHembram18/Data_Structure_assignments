@@ -1,0 +1,106 @@
+/*
+ * PROGRAM:To perform delete operation with various cases
+ * FILE:delete_operation
+ * CREATED BY:Santosh Hembram
+ * DATED:12/02/2020
+ *
+ */
+	#include<stdio.h>
+	#include<stdlib.h>
+	typedef struct link
+	{
+		int data;
+		struct link *next;
+	}sl;
+	sl *first=NULL,*last,*curr;
+	void create(int);
+	void display2(sl *);
+	void delete_first(sl *);
+	void delete_last(sl *);
+	void delete_specific_pos(sl *,int);
+//	void display2(sl *);
+	
+	int main()
+	{
+		int num,pos;
+		char ch='y';
+		while(ch=='y'||ch=='Y')
+		{
+			printf("Enter a number:-");
+			scanf("%d",&num);
+			create(num);
+			printf("\nDo you want to create another node[y/n]:-");
+			fgetc(stdin);
+			scanf("%c",&ch);
+		}
+		display2(first);
+		delete_first(first);
+		delete_last(first);
+	
+		printf("\nEnter a postion:-");
+		scanf("%d",&pos);
+		delete_specific_pos(first,pos);
+		return 0;
+	
+	}
+	void create(int num)
+	{
+		curr=(sl *)malloc(sizeof(sl));
+		curr->data=num;
+		curr->next=NULL;	
+		if(first==NULL)
+			first=curr;
+		else
+			last->next=curr;
+		last=curr;
+	}
+	void delete_first(sl *ptr)
+	{
+		sl *temp;
+
+		if(ptr==NULL)
+			printf("\nNo list found----");
+		temp = ptr;
+		ptr=ptr->next;
+		first=ptr;
+		temp -> next = NULL;
+		printf("\nAfter deleting the first position:-\n");
+		display2(first);
+	}
+	void delete_last(sl *ptr2)
+	{
+	
+		while(ptr2->next!=NULL)
+		{
+			last=ptr2;
+			ptr2=ptr2->next;
+		}
+		last->next=NULL;
+		printf("\nAfter deleting the last position:-\n");
+		display2(first);
+	}
+	void delete_specific_pos(sl *ptr3,int pos)
+	{
+		int i=1;
+		while(ptr3!=NULL && i<pos)
+		{
+			last=ptr3;
+			ptr3=ptr3->next;
+			i++;
+		}
+		last->next=ptr3->next;
+		printf("\nAfter deleting the specific position:-\n");
+	
+		display2(first);
+	}
+	void display2(sl *z)
+	{
+		while(z!=NULL)
+		{
+			printf("\n%d",z->data);
+			z=z->next;
+		}
+	}
+	
+		
+	
