@@ -1,13 +1,16 @@
 # Data_Structure_assignments
 2nd semester [ january 2020 ---  july  2020   ]
 
-
-
 “All the copyright resereved with @HembramBeta777"
+
+
+
+
 	*   VMware Workstation 10.0
 	*   cent os
 	*    Linux  Destro\Virtual Machines\Cent OS\CentOS.vmx
 	*    geedit
+	
 ********Copyright Disclaimer under section 107 of the Copyright Act of 1976 ********
 
 N.B:-
