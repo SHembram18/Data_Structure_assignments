@@ -12,8 +12,7 @@
 		struct link *next;
 	}sl;
 	sl *first=NULL,*last,*curr,*first2,*first3;
-	int main()
-	{
+
 		int num;
 		char ch='Y';
 		void create(int);
@@ -21,7 +20,8 @@
 		void even(sl *);
 		void odd(sl *);
 	
-	
+	int main()
+	{	
 		while(ch=='y'||ch=='Y')
 		{
 			printf("Enter a number-");
@@ -32,22 +32,20 @@
 			scanf("%c",&ch);
 		}
 		printf("\nDisplay the data of the list:-\n");
+		printf("\n");
 		display(first);
 
 		first2=first;
 		first=NULL;
-
+		
+	
 		even(first2);
-		printf("\nDisplaying the 2nd list which stores even numbers:-\n");	
-		display(first);
 
 		first3=first;
-		first=NULL;
-
+		first=NULL;		
+		
 		odd(first2);
-		printf("\nDisplaying the 3rd list which stores odd numbers:-\n");	
-		display(first);
-	
+		
 	
 	}
 	void create(int num)
@@ -65,7 +63,7 @@
 	{
 		while(N!=NULL)
 		{
-			printf("\n%d",N->data);
+			printf("\t%d",N->data);
 			N=N->next;
 		}
 	}
@@ -77,20 +75,26 @@
 				create(x->data);
 			x=x->next;
 		}
+		printf("\n");
+		printf("\nDisplaying the even number of the list-\n");
+		display(first);
 	}
 	void odd(sl *ptr)
 	{
 		while(ptr!=NULL)
 		{
-			if(ptr->data % 2 == 1)
+			if(ptr->data % 2 == 1 )
 				create(ptr->data);
 			ptr=ptr->next;
 		}
+		printf("\n");
+		printf("\nDisplaying the odd number of the list-\n");
+		display(first);
 	}
-			
+	
+	
 		
 	
-			
 			
 
 
