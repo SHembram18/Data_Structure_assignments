@@ -1,8 +1,8 @@
-//TEATING OF POLYNOMILA
+//TESTING OF POLYNOMIAL REPRESENTATION & ADDITTION
 
 	#include<stdio.h>
 	#include<stdlib.h>
-	typedef struct link
+	typedef struct polynomial
 	{
 		int coef,exp;
 		struct polynomial *next;
