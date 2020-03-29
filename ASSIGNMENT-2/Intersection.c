@@ -34,6 +34,7 @@
 		}
 		printf("\nDisplaying the 1st link list:-\n");
 		display(first);
+		printf("\n");
 
 		first2=first;
 		first=NULL;
@@ -55,7 +56,8 @@
 		first=NULL;
 
 		intersection(first2,first3);
-		printf("\n");
+		printf("\n");printf("intersection list-\n");
+		
 		display(first);
 		
 
@@ -82,17 +84,23 @@
 	}	
 	void intersection(sl *n,sl *n1)
 	{
-		sl *a,*b;
+		sl *a,*b;int count=0;
 	
 		for(a=n; a!=NULL ; a=a->next)
 		{
 			for(b=n1; b!=NULL; b=b->next)
 			{
-				if( a->data == b->data)
+				if( a->data == b->data){
 					create(a->data);
+					count=1;}
 			
 			}
 		
+		}
+		if(count!=1)
+		{
+			printf("\nIntersection = 0 ");
+			exit(1);
 		}
 		
 	}
