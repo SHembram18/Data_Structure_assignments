@@ -40,8 +40,16 @@
 	
 		prime_list(first2);
 		printf("\n");
-		printf("Displaying the prime_list:-\n");
-		display(first);
+		if(first==NULL)
+		{
+			printf("No prime numbers are present in the list\n");
+			exit(1);
+		}
+		else
+		{
+			printf("Displaying the prime_list:-\n");
+			display(first);
+		}
 		
 	}
 	void create(int num)
