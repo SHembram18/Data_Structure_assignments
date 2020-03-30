@@ -63,23 +63,39 @@
 	}
 	void update_key(sl *p,int key)
 	{
-		int u_key;
+		int u_key,count=0;
 		while(p!=NULL)
 		{
 			if (p->data==key )
 			{
 				printf("\nKey element is found\n");
-		
+				count++;
+
 				printf("Enter the new number:-");
 				scanf("%d",&u_key);
 				p->data=u_key;
 				break;
 			}
+			
 			p=p->next;
+		}	
+		if(count==0)
+		{
+			printf("Key element is not found in the list!!!!\n");
+			exit(1);
 		}
 	}
 	
 	
+
+	
+			
+		
+		
+				
+	
+	
+		
 
 	
 			
