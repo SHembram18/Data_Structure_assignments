@@ -1,6 +1,6 @@
 /*
  * PROGRAM:To create a shorted sll which each & every node are capable of storing a single link list 
- * FILE:shorted_string_sll.c
+ * FILE:string_sorted.c
  * CREATED BY:Santosh Hembram	
  * DATED:24/02/2020
  */
