@@ -28,6 +28,8 @@ N.B:-
       - You can use this code.
 ### dLinks
 
-	+ [Himanshu]( https://Github.com/Himanshu40/)
+	+ [Himanshu](https://Github.com/Himanshu40/)
 
+# EXAMPLAE
 
+                         https://gfycat.com/elementarygiddyguanaco
