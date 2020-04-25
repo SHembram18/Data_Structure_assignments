@@ -26,8 +26,8 @@ N.B:-
        -All  codes are only for teaching purposes/assignment works.
 
       - You can use this code.
-#Links
+### dLinks
 
-	+ [Himanshu]( https://Github.com/Himanshu40)
+	+ [Himanshu]( https://Github.com/Himanshu40/)
 
 
