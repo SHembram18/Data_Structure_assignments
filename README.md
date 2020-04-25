@@ -31,7 +31,7 @@ N.B:-
 							 
 							  - Chandrakant Jena
 							  - Himanshu Sekhar Sahoo
-							  - Diptesh Choudhury
+							  + [Diptesh Choudhury]( https://www.facebook.com/diptesh.choudhory/)
 							  - Soumyokant Sahoo
 							 
                           	
