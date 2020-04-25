@@ -26,14 +26,8 @@ N.B:-
        -All  codes are only for teaching purposes/assignment works.
 
       - You can use this code.
+#Links
+
+	+ [Himanshu]( https://Github.com/Himanshu40)
 
 
-### Help & support to debugging the error in the program by:-
-							 
-							  _Chandrakant Jena_
-							  - Himanshu Sekhar Sahoo
-							  - Diptesh Choudhury 
-							  - Soumyokant Sahoo
-							 
-                          	
-Thanks to all my friends!!!!!!......................................................
