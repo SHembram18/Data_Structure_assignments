@@ -27,10 +27,10 @@ N.B:-
 
       - You can use this code.
 
-Help & support to debugging the error in the program by:-
-							//Diptesh Choudhury
-							//Himanshu Sekhar Sahoo
-							//Chandrakant Jena
-							//Soumyakant Sahoo
+### Help & support to debugging the error in the program by:-
+							*Diptesh Choudhury*
+							@Himanshu40
+							*Chandrakant Jena*
+							 *Soumyakant Sahoo*
                           	
 Thanks to all my friends!!!!!!......................................................
