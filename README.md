@@ -28,9 +28,6 @@ N.B:-
       - You can use this code.
 
 ### Help & support to debugging the error in the program by:-
-							 ``` Diptesh Choudhury ```
-							@ Himanshu40
-							* Chandrakant Jena *
-							 * Soumyakant Sahoo *
+							 [ chandrakant jena ]( https://github.com/chandrakant100 )
                           	
 Thanks to all my friends!!!!!!......................................................
