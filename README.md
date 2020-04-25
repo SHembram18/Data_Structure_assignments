@@ -27,11 +27,12 @@ N.B:-
 
       - You can use this code.
 
+
 ### Help & support to debugging the error in the program by:-
 							 
 							  - Chandrakant Jena
 							  - Himanshu Sekhar Sahoo
-							  + [Diptesh Choudhury]( https://www.facebook.com/diptesh.choudhory/)
+							  - Diptesh Choudhury 
 							  - Soumyokant Sahoo
 							 
                           	
