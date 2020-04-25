@@ -32,4 +32,4 @@ N.B:-
 
 # EXAMPLAE
 
-                         https://gfycat.com/elementarygiddyguanaco
+		<iframe src='https://gfycat.com/ifr/ForkedVastAmericanpainthorse' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe><p> <a href="https://gfycat.com/forkedvastamericanpainthorse">via Gfycat</a></p>
