@@ -30,7 +30,7 @@ N.B:-
 
 ### Help & support to debugging the error in the program by:-
 							 
-							  - Chandrakant Jena
+							  _Chandrakant Jena_
 							  - Himanshu Sekhar Sahoo
 							  - Diptesh Choudhury 
 							  - Soumyokant Sahoo
