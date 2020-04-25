@@ -29,7 +29,10 @@ N.B:-
 
 ### Help & support to debugging the error in the program by:-
 							 
-							 [ Chandrakant100 ]( https://github.com/Chandrakant100/ )
+							  - Chandrakant Jena
+							  - Himanshu Sekhar Sahoo
+							  - Diptesh Choudhury
+							  - Soumyokant Sahoo
 							 
                           	
 Thanks to all my friends!!!!!!......................................................
