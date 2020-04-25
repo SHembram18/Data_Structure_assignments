@@ -29,7 +29,7 @@ N.B:-
 
 ### Help & support to debugging the error in the program by:-
 							 
-							 [Chandrakant Jena]( https://github.com/Chandrakant100/ )
+							 [ Chandrakant100 ]( https://github.com/Chandrakant100/ )
 							 
                           	
 Thanks to all my friends!!!!!!......................................................
