@@ -28,7 +28,7 @@ N.B:-
       - You can use this code.
 
 ### Help & support to debugging the error in the program by:-
-							* Diptesh Choudhury *
+							 ``` Diptesh Choudhury ```
 							@ Himanshu40
 							* Chandrakant Jena *
 							 * Soumyakant Sahoo *
