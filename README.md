@@ -20,6 +20,8 @@ Facebook :- https://www.facebook.com/santosh.hembram.796
   [Himanshu Sekhar Nayak](https://github.com/Himanshu40)
   
   [Chandrakant Jena](https://github.com/Chandrakant100)
+  
+          Thanks to my friends for solving the error in the code.
 
 ## Website
 
