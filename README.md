@@ -55,6 +55,10 @@ Facebook :- https://www.facebook.com/santosh.hembram.796
  
  GNOME 2.28.2
  
+## LICENSE
+
+ [GNU General public license](https://github.com/HembramBeta777/Data_structure_assignments/blob/master/LICENSE)
+ 
  
  ### THANKS FOR VISITING THE PAGE !!!!!
  
